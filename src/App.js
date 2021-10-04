@@ -9,6 +9,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 import Services from './Components/Services/Services'
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -19,16 +20,18 @@ function App() {
         <Switch>
           <Route exact path="/home">
             <Home></Home>
-            <Services></Services>
           </Route>
 
           <Route exact path="/">
             <Home></Home>
-            <Services></Services>
           </Route>
 
           <Route exact path="/services">
             <Services></Services>
+          </Route>
+
+          <Route exact path="/testimonial">
+            <Testimonial></Testimonial>
           </Route>
 
           <Route exact path="/about-us">

@@ -1,15 +1,40 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Testimonial from '../Testimonial/Testimonial';
 import './Home.css'
 
 const Home = () => {
+    const [services, setServices] = useState([])
+
+    useEffect(() => {
+        fetch('https://raw.githubusercontent.com/DruboSaptapan/project-json/main/services.json')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
     return (
-        <div className="hero-image">
-            <div className="hero-text">
-                <h1>This is home</h1>
-                <h1>I am John Doe</h1>
-                <p>And I'm a Photographer</p>
-                <button>Hire me</button>
+        <div>
+            <div className="hero-image">
+                <div className="hero-text w-75 mx-auto">
+                    <h3><q>Education is the most powerful weapon by which you can change the world.</q>
+                        <small> -Nelson Mendela</small></h3>
+                </div>
             </div>
+            <div className="container my-5">
+                <h2 className="mb-4">Our Services</h2>
+                <div className="home-services">
+                    {
+                        services.map(service =>
+                            
+                            <div className="card" key={service._id}>
+                                <img src={service.icon} className="card-img-top" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-title">{service.title}</h5>
+                                    <p className="card-text">{service.description}</p>
+                                </div>
+                            </div>)
+                    }
+                </div>
+            </div>
+            <Testimonial></Testimonial>
         </div>
     );
 };

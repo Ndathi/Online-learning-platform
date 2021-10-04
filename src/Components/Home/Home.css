@@ -20,18 +20,12 @@
   color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
+.hero-text small{
+  font-size: .8em;
+  font-style: italic;
 }
 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
+.home-services{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }

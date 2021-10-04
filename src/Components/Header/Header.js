@@ -3,10 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light container">
-                <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/">Navbar</NavLink>
+        <div className="">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                <div className="container">
+                    <NavLink className="navbar-brand" to="/">
+                        <img src="" alt="" />
+                        Educative</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -17,6 +19,9 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/services">Services</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" aria-current="page" to="/testimonial">Testimonial</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" aria-current="page" to="/about-us">About Us</NavLink>
