@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="footer">
             <div className="bg-light mt-5 py-5 text-center">
                 <div className="container d-flex text-start">
-                    <div className="col-3 me-5">
+                    <div className="col-3 me-5 text-center">
                         <img src={logo} alt="" />
-                        <p>Lost the plot Richard you mug cup of teac knackeder boot bender.</p>
+                        <h3 className="mt-2">Educative</h3>
                     </div>
                     <div className="col-3">
                         <h5>Explore</h5>
