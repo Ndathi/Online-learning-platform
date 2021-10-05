@@ -18,6 +18,8 @@ const Home = () => {
                         <small> -Nelson Mendela</small></h3>
                 </div>
             </div>
+
+            {/* services of home start */}
             <div className="container my-5">
                 <h2 className="mb-4">Our Services</h2>
                 <div className="home-services">
@@ -35,6 +37,7 @@ const Home = () => {
                     }
                 </div>
             </div>
+            {/* services of home end */}
             <Testimonial></Testimonial>
         </div>
     );

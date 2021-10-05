@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
 
+      {/* router for navlink start */}
       <Router>
         <Header></Header>
         <Switch>
@@ -48,6 +49,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+      {/* router for navlink end */}
 
     </div>
   );

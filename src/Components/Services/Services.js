@@ -11,6 +11,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     return (
+        /* sevices for sevices nav link start */
         <div className="my-5">
             <h2 className="mb-4">Our services</h2>
             <div className="container">
@@ -21,6 +22,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
+        /* sevices for sevices nav link end */
     );
 };
 
