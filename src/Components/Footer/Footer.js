@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Footer.css'
 import logo from './img/logo.png'
 
@@ -7,9 +8,10 @@ const Footer = () => {
         <div className="footer">
             <div className="bg-light mt-5 py-5 text-center">
                 <div className="container d-flex flex-wrap text-start">
-                    <div className="col-lg-3 col-6 text-lg-center text-start">
-                        <img src={logo} alt="" />
-                        <h3 className="mt-2">Educative</h3>
+                    <div className="col-lg-3 col-6 text-lg-center text-start pt-5">
+                    <NavLink className="navbar-brand text-dark" to="/">
+                        <img src={logo} alt="" className="w-25 me-3"/>
+                        Educative</NavLink>
                     </div>
                     <div className="col-lg-3 col-6">
                         <h5>Explore</h5>

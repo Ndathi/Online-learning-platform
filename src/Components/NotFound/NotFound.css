@@ -1,15 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.not-found{
-    height: 520px;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.not-found {
+  height: 520px;
 }
-.not-found h1{
-    font-size: 150px;
-    font-family: 'Pacifico', cursive;
+.not-found h1 {
+  font-size: 150px;
+  font-family: "Pacifico", cursive;
 }
-.not-found p{
-    font-family: 'Pacifico', cursive;
-    font-size: 55px;
-    margin-left: 20px;
-    text-align: left;
-    width: 10%;
+.not-found p {
+  font-family: "Pacifico", cursive;
+  font-size: 55px;
+  margin-left: 20px;
+  text-align: left;
+  width: 10%;
+}
+
+@media only screen and (max-width: 425px) {
+  .not-found {
+    height: 300px;
+  }
+  .not-found h1 {
+    font-size: 85px;
+  }
+  .not-found p {
+    font-size: 31px;
+  }
 }

@@ -22,7 +22,7 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route  path="/home">
+          <Route path="/home">
             <Home></Home>
           </Route>
 
@@ -37,7 +37,7 @@ function App() {
           <Route path="/about-us">
             <AboutUs></AboutUs>
           </Route>
-          
+
           <Route path="/contact-us">
             <ContactUs></ContactUs>
           </Route>
@@ -46,9 +46,9 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
 
-      <Footer></Footer>
     </div>
   );
 }
