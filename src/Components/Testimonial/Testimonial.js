@@ -15,7 +15,7 @@ const Testimonial = () => {
                         <div className="card">
                             <div className="card-body">
                                 <q className="card-text text-start">Ut convallis, sem sit amet interdum consectetuer, odio augualiquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere. Morbi sit amet nulla sed dolor elementum imperdiet. Quisque fermentum.</q>
-                                <div className="row align-items-center mt-4">
+                                <div className="row align-items-center justify-content-center mt-4">
                                     <div className="col-3">
                                         <img src={parentsImg} className="card-img-bottom w-75" alt="..." />
                                     </div>

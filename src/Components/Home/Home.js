@@ -22,7 +22,7 @@ const Home = () => {
                 <h2 className="mb-4">Our Services</h2>
                 <div className="home-services">
                     {
-                        services.slice(2, 6).map(service =>
+                        services.slice(0, 4).map(service =>
                             <div className="card" key={service._id}>
                                 <img src={service.icon} className="card-img-top" alt="" />
                                 <div className="card-body">
