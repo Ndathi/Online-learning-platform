@@ -13,7 +13,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                     <input type="mail" className="form-control mt-3" placeholder="Email Address" aria-label="Last name" />
-                    <textarea class="mt-3 form-control" placeholder="Write your message here" id="floatingTextarea"></textarea>
+                    <textarea className="mt-3 form-control" placeholder="Write your message here" id="floatingTextarea"></textarea>
                     <button className="btn btn-success px-5 mt-3 rounded-pill">Submit</button>
                 </div>
             </div>
