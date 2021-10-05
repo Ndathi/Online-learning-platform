@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div>
             <div className="hero-image">
-                <div className="hero-text w-75 mx-auto">
+                <div className="hero-text mx-auto">
                     <h3><q>Education is the most powerful weapon by which you can change the world.</q>
                         <small> -Nelson Mendela</small></h3>
                 </div>

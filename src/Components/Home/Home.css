@@ -17,6 +17,10 @@
   color: white;
 }
 
+.hero-text{
+  width: 70%;
+}
+
 .hero-text small{
   font-size: .7em;
   font-style: italic;
@@ -25,4 +29,14 @@
 .home-services{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-text{
+    width: 100%;
+    padding: 0;
+  }
+  .home-services {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

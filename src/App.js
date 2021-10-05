@@ -18,27 +18,27 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route exact path="/home">
-            <Home></Home>
-          </Route>
-
           <Route exact path="/">
             <Home></Home>
           </Route>
 
-          <Route exact path="/services">
+          <Route  path="/home">
+            <Home></Home>
+          </Route>
+
+          <Route path="/services">
             <Services></Services>
           </Route>
 
-          <Route exact path="/testimonial">
+          <Route path="/testimonial">
             <Testimonial></Testimonial>
           </Route>
 
-          <Route exact path="/about-us">
+          <Route path="/about-us">
             <AboutUs></AboutUs>
           </Route>
           
-          <Route exact path="/contact-us">
+          <Route path="/contact-us">
             <ContactUs></ContactUs>
           </Route>
 
