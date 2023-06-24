@@ -44,7 +44,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <p>Copyright@2021 Educative. All Rights Reserved. Created by Saptapan Barua</p>
+                <p>Copyright@2021 Educative. All Rights Reserved. Created by Alex Kimutai</p>
             </div>
         </div>
     );
